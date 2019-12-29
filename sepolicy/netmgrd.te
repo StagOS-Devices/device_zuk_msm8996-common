@@ -4,3 +4,4 @@ allow netmgrd property_socket:sock_file write;
 allow netmgrd init:unix_stream_socket connectto;
 
 set_prop(netmgrd, vendor_xlat_prop)
+allow netmgrd netmgrd:capability { sys_admin };
