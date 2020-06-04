@@ -1133,4 +1133,7 @@
     <!-- Whether device supports wifi ap mac randomization -->
     <bool name="config_wifi_ap_randomization_supported">false</bool>
 
+    <!-- True if the firmware supports p2p MAC randomization -->
+    <bool name="config_wifi_p2p_mac_randomization_supported">true</bool>
+
 </resources>
