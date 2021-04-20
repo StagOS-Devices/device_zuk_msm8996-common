@@ -180,7 +180,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
     vidc.enc.dcvs.extra-buff-count=2 \
-    persist.sys.fflag.override.settings_fuse=false \
     mmp.enable.3g2=true \
     media.aac_51_output_enabled=true \
     media.settings.xml=/vendor/etc/media_profiles_vendor.xml
@@ -315,4 +314,3 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.surface_flinger.supports_background_blur=1 \
     persist.sys.sf.disable_blurs=1 \
     ro.sf.blurs_are_expensive=1
-
