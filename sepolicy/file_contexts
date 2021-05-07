@@ -36,3 +36,5 @@
 
 # FPS Info
 /sys/devices/virtual/graphics/fb0/measured_fps                              u:object_r:sysfs_fps:s0
+
+/data/stag_updates(/.*)?           u:object_r:ota_package_file:s0
